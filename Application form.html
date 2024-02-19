@@ -1,0 +1,59 @@
+<html>
+    <head><title>Application form</title></head>
+</html>
+<body>
+    <h1>ApplicationForm</h1>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+        <label>FirstName:</label>
+       <input type="text" required></input>
+       <label>LastName:</label>
+       <input type="text" required></input><pre>
+    </pre><label>Date of Birth:</label>
+          <input type="date" placeholder="mm/dd/yyyy" required></input>
+    <label>Age:</label>
+       <input type="number"></input><pre>
+    </pre><label>Gender:</label>
+       <input type="radio" name="gn">Male</input>
+       <input type="radio" name="gn">Female</input>
+       <input type="radio" name="gn">Others</input>
+       <label>Email:</label>
+       <input type="email" placeholder="Enter email addess" required></input>
+    </fieldset><pre>
+
+    </pre>
+      <label>Positions Available:</label>
+    <select value="select">
+        <optgroup label="Junior developers">
+            <option>python</option>
+            <option>java</option>
+        </optgroup >
+        <optgroup label="Mid-level developers">
+            <option>python</option>
+            <option>java</option>
+        </optgroup>
+        <optgroup label="Senior developers">
+            <option>python</option>
+            <option>java</option>
+        </optgroup>
+    </select><pre>
+    </pre><label><b>Programming languages:</b></label>
+       <input type="checkbox">Java</input>
+       <input type="checkbox">JavaScript</input>
+       <input type="checkbox">Python</input><pre>
+    </pre><label>Branch:</label>
+       <input list="branch"></input>
+       <datalist id="branch">
+        <option value="CSE">CSE</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+       </datalist><pre>
+       </pre><label>Password:</label>
+       <input type="password"></input>
+       <label>Confirm Password:</label>
+       <input type="password"></input><pre>
+        </pre><input type="submit" value="Submit"></input>
+        <input type="reset" value="Reset"></input>
+    </form>
+</body>
