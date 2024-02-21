@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-image: url(p1in.webp);
+    background-repeat: no-repeat;
+    background-size:1150px 900px
+}
+#kitten-image{
+    width:90%;
+}
+#puppy-image{
+    width:90%;  
+}
+#main-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+    margin-top: 470px;
+}
+#roof1{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 80px solid rgb(235, 200, 135);
+}
+#wall1{
+    background-color: white;
+    margin-left:50px ;
+    width: 100px;
+    height:100px;
+    margin-bottom: 0px;
+}
+#roof2{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom:150px solid rgb(115, 0, 255);
+}
+#wall2{
+    background-color: white;
+    margin-left:35px ;
+    width: 130px;
+    height:130px;
+    margin-bottom:0px;
+}
