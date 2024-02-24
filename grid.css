@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     text-align: center;
     background-image:url(back.jpeg);
+    justify-content:center;
 }
 h1{
     text-align: center;
