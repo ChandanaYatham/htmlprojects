@@ -15,6 +15,7 @@ h1{
     display:grid;
     height:200px;
     width:1050px; 
+    text-align:center;
 }
 #grid{
     display:grid;
@@ -22,7 +23,6 @@ h1{
     width:600px;
     grid-template-columns: auto auto auto auto auto auto;
     padding-left:800px;
-    align:center;
 }
 img{
     height:90px;
