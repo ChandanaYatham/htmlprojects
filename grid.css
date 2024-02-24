@@ -21,7 +21,7 @@ h1{
     height:300px;
     width:600px;
     grid-template-columns: auto auto auto auto auto auto;
-    margin-left: 230px;
+    margin-left: 500px;
     align:center;
 }
 img{
