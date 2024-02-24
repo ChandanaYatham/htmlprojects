@@ -1,0 +1,29 @@
+body{
+    background-size:1140px 850px;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    background-color: purple;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#mains{
+    display:grid;
+    height:200px;
+    width:1050px; 
+}
+#grid{
+    display:grid;
+    height:300px;
+    width:600px;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-left: 230px;
+}
+img{
+    height:90px;
+    width:90px;
+}
